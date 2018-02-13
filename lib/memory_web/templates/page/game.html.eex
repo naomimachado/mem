@@ -5,4 +5,5 @@
 <h1>Memory Game: <%= @game_name %></h1>
 
 <div id="game">
+  React loading...
 </div>
