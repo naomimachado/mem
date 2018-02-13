@@ -1,0 +1,16 @@
+<div>
+<h1>Memory Game</h1>
+<h1>Join a Game</h1>
+<input type="text" id="gamename" onkeyup="change()" required> </input>
+<br>
+<a id="join">
+<br>
+<button type="button" style="background-color: #e7e7e7; color: black;"> Join </button>
+
+<script>
+  function change(){
+    let gname = $('#gamename').val();
+    $('#join').attr('href', "/memory/" + String(gname));
+  }
+</script>
+</div>
